@@ -6,7 +6,16 @@
 
 # Numbers
 
+# puts 3
+# puts 2
+# 2 + 3
+# puts 2*3
+# puts 5.0/3
+# puts 5%3
+
 # Non-numbers
+
+# puts "Patrick"
 
 # True, False
 
@@ -14,6 +23,18 @@
 
 # Variables
 
+
+
+food = "tacos"
+drink = "diet coke"
+puts food 
+puts food + " are delish"
+
+puts "My favorite food is #{food} and #{drink}"
+
+puts drink + 3
 # Combine strings and variables
 
 # String manipulation
+
+puts food.upcase
