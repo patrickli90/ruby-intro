@@ -29,4 +29,14 @@ puts die2
 
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
+puts ""
 puts "The total is: #{total}"
+
+puts "----------------------------------"
+if die1 + die2 == 7 || die1 + die2 == 11
+  puts "You Win!"
+elsif die1 + die2 == 2 || die1 + die2 == 3 || die1 + die2 == 12
+  puts "Womp Womp... you lose"
+else
+  puts "The point is #{total}"
+end
